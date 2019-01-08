@@ -1,0 +1,19 @@
+{
+  "hosting": {
+    "target": "wellactually",
+    "public": ".",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**",
+      "LICENSE",
+      ".git"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
